@@ -1,0 +1,26 @@
+{
+  "name" : "Algorithm::BloomFilter::Faster",
+  "source-url" : "git@github.com:yowcow/p6-Algorithm-BloomFilter-Faster.git",
+  "perl" : "6.c",
+  "resources" : [
+    "libmurmurhash.so"
+  ],
+  "build-depends" : [ ],
+  "provides" : {
+    "Algorithm::BloomFilter::Faster" : "lib/Algorithm/BloomFilter/Faster.pm6"
+  },
+  "depends" : [
+    "Algorithm::BloomFilter",
+    "LibraryMake",
+    "NativeCall"
+  ],
+  "description" : "Faster Bloom filter with murmurhash",
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "version" : "*",
+  "authors" : [
+    "yowcow"
+  ]
+}
