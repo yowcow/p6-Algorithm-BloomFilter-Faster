@@ -1,7 +1,6 @@
 use v6;
 use Test;
-use Algorithm::BloomFilter::Faster;
 
-pass "replace me";
+use-ok 'Algorithm::BloomFilter::Faster';
 
 done-testing;

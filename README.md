@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/yowcow/p6-Algorithm-BloomFilter-Faster.svg?branch=master)](https://travis-ci.org/yowcow/p6-Algorithm-BloomFilter-Faster)
+
 NAME
 ====
 
@@ -26,6 +28,11 @@ INTERNAL METHODS
 #### murmurhash(Str, uint32, uint32 --> uint32)
 
 #### calc-hash(Cool:D $key, Int:D $seed)
+
+SEE ALSO
+========
+
+[https://github.com/jwerle/murmurhash.c](https://github.com/jwerle/murmurhash.c)
 
 AUTHOR
 ======
